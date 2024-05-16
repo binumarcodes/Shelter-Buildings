@@ -1,0 +1,128 @@
+.hero-section {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgb(0,0,0), rgba(0,0,0,0.9), rgb(0,0,0,0.8), rgba(0,0,0,0.5),rgb(0, 0, 0)), url("src/assets/images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: 0 0; */
+    /* padding-top: 500px; */
+    /* position: fixed;
+    top: 0; */
+}
+
+.background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-image: linear-gradient(rgb(0,0,0), rgba(0,0,0,0.9), rgb(0,0,0,0.8), rgba(0,0,0,0.5),rgb(0, 0, 0)); */
+    background-color: rgba(0,0,0,0.9);
+  }
+
+.content {
+    position: absolute;
+    bottom: 3%;
+    left: 15%;
+    width: 510px;
+    /* height: 384px; */
+    overflow: hidden;
+}
+
+.logo-line {
+    width: 200px;
+    height: 7px;
+    margin-bottom: 15px;
+}
+
+.hero-section h1 {
+    color: #fff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 5px;
+
+}   
+
+.hero-section .nav-head {
+    margin-bottom: 15px;
+
+}   
+
+.hero-section p {
+    font-size: 24px;
+    color: #fff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero-section .content h1 {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  
+
+
+  @media screen and (max-width: 700px) {
+    .hero-section {
+        width: 100%;
+        min-height: 100vh;
+        background-image: linear-gradient(rgb(0,0,0), rgba(0,0,0,0.9), rgb(0,0,0,0.8), rgba(0,0,0,0.5),rgb(0, 0, 0)), url("src/assets/images/bg.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* background-position: 0 0; */
+        /* padding-top: 500px; */
+        /* position: fixed;
+        top: 0; */
+    }
+    
+   
+    
+    .content {
+        position: absolute;
+        bottom: 3%;
+        left: 10%;
+        width: 510px;
+        /* height: 384px; */
+        overflow: hidden;
+    }
+    
+    .logo-line {
+        width: 200px;
+        height: 7px;
+        margin-bottom: 15px;
+    }
+    
+    .hero-section h1 {
+        color: #fff;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 40px;
+        font-weight: 800;
+        margin-bottom: 5px;
+    
+    }   
+    
+    .hero-section .nav-head {
+        margin-bottom: 15px;
+    
+    }   
+    
+    .hero-section p {
+        font-size: 20px;
+        color: #fff;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .hero-section .content h1 {
+        opacity: 0;
+        transform: translateY(50px);
+      }
+  }

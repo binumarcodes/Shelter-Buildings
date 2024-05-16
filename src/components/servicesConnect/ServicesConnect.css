@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.services-connect {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgb(0,0,0)), url("/src/assets/images/servicesBg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+.services-connect-contents {
+    width: 450px;
+    overflow: hidden;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+.services-connect-contents img {
+    width: 181px;
+    height: 6.6px;
+}
+
+.services-connect-contents h2 {
+    color: #fff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 25px; 
+}
+
+.services-connect-contents p {
+    color: #fff;
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 28px;
+    font-weight: 400;
+}
+
+
+.custom-button {
+    background-color: orangered;
+    border: 10px;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none; 
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    margin-top: 20px;
+  }
+  
+  .custom-button::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    bottom: -10px;
+    left: -10px;
+    background: rgba(10, 175, 180, 0.1);
+    backdrop-filter: blur(10px);
+    z-index: -1;
+    transition: all 0.3s ease;
+  }
+  
+  .custom-button:hover::before {
+    top: -20px;
+    right: -20px;
+    bottom: -20px;
+    left: -20px;
+  }
